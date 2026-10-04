@@ -34,7 +34,15 @@ print("After removing IBM:", it_companies)
 # 5. Difference between remove() and discard()
 
 # remove()
+companies = {"Google", "Apple"}
+
+companies.remove("Microsoft")
+# KeyError because Microsoft is not in the set
 # Gives an error if the item does not exist
 
 # discard()
+companies = {"Google", "Apple"}
+
+companies.discard("Microsoft")
+# No error
 # Does not give an error if the item does not exist
