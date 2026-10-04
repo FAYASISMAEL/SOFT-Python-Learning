@@ -50,7 +50,7 @@ print("Last three items:", last_three)
 del food_stuff_tp
 
 # print(food_stuff_tp)
-# This will give NameError because the tuple is deleted
+# This will give NameError because the tuple is deleted.
 
 
 # 7. Check if an item exists in tuple
